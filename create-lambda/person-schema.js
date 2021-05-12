@@ -6,7 +6,7 @@ const personSchema = new dynamoose.Schema({
   'id': String,
   'name': String,
   'age': Number,
-  'prounoun': String
+  'pronoun': String
 });
 
 module.exports = dynamoose.model('people', personSchema);
