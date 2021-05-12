@@ -5,7 +5,7 @@ const dynamoose = require('dynamoose');
 const personSchema = new dynamoose.Schema({
   'id': String,
   'name': String,
-  'age': Number,
+  'age': String,
   'prounoun': String
 });
 
