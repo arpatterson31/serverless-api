@@ -12,7 +12,7 @@
 ## Data and Program Flow
 
 - What is the root URL to your API?
-  `https://7yrr0s7wk5.execute-api.us-west-2.amazonaws.com/`
+  - [root URL](https://7yrr0s7wk5.execute-api.us-west-2.amazonaws.com/)
 - What are the routes?
 - What inputs do they require?
 - What output do they return?
