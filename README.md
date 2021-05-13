@@ -4,6 +4,10 @@
 
 ### Author: Audrey Patterson
 
+## PR
+
+-[Pull Request](https://github.com/arpatterson31/serverless-api/pull/1)
+
 ## UML Diagram
 
 - UML for Lab 18 showing architecture of API
