@@ -4,9 +4,14 @@
 
 ### Author: Audrey Patterson
 
-## PR
+## PR & Code Links
 
--[Pull Request](https://github.com/arpatterson31/serverless-api/pull/1)
+- [Pull Request](https://github.com/arpatterson31/serverless-api/pull/1)
+- [Create](create-lambda/index.js)
+- [Read](read-lambda/index.js)
+- [Update](update-lambda/index.js)
+- [Delete](delete-lambda/index.js)
+- [Schema](create-lambda/person-schema.js)
 
 ## UML Diagram
 
@@ -38,6 +43,23 @@
   - `GET /people?id=##` - returns status code of 200 and JSON of queried item from DB
   - `DELETE /people?id=##` - will delete the item, send you back a message saying `Item deleted from DB successfully!` and empty object
   - `PUT /people?id=##` - will return a success message and an JSON object of updated item
+
+## Swagger Inspector Screenshots
+
+- POST
+![POST](assets/post.png)
+
+- GET ALL
+![GET ALL](assets/getAll.png)
+
+- GET By ID
+![GET by ID](assets/getByID.png)
+
+- PUT/Update
+![PUT/Update](assets/updateByID.png)
+
+- DELETE By ID
+![DELETE](assets/deleteByID.png)
 
 ## Links and Resources
 
