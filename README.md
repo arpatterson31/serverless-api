@@ -13,7 +13,7 @@
 
 - What is the root URL to your API?
   - [root URL](https://7yrr0s7wk5.execute-api.us-west-2.amazonaws.com/)
-  
+
 - What are the routes?
   - `GET /people` - reads all items from the DB
   - `GET /people?id=##` - reads item with matching id from DB
@@ -32,7 +32,8 @@
   - `POST /people` - returns status code of 200 and JSON of new item added to DB based on Schema
   - `GET /people` - returns all items in DB in JSON form
   - `GET /people?id=##` - returns status code of 200 and JSON of queried item from DB
-  - `DELETE /people?id=##` - will delete the item, send you back a message saying `Item deleted from DB successfully!`
+  - `DELETE /people?id=##` - will delete the item, send you back a message saying `Item deleted from DB successfully!` and empty object
+  - `PUT /people?id=##` - will return a success message and an JSON object of updated item
 
 ## Links and Resources
 
