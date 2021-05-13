@@ -8,11 +8,12 @@ exports.handler = async (event) => {
   try {
     const id = event.queryStringParameters && event.queryStringParameters.id;
     
-    await PersonModel.delete({id: id});
+    let deleted = await PersonModel.delete({id: id});
 
     return {
       status: 200,
-      response: 'Item deleted from DB successfully!'
+      response: 'Item deleted from DB successfully!',
+      body: JSON.stringify(deleted)
     }
 
   } catch (err) {
